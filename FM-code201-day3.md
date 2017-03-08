@@ -30,3 +30,13 @@ p {
   height 80%
   width 80%
 }
+
+  Another useful property that I learned was the overflow property. With this
+one I tell the browser what to do with the content if its bigger than the box.
+There is 2 options regarding this: scroll and hidden.
+
+  Here is an example of the code for the scroll property:
+
+p {
+  overflow: scroll;
+}
