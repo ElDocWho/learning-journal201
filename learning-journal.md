@@ -60,3 +60,48 @@ example of this loop.
 while (i = 0; i < x; i++) {
   x = x + 1
 }
+
+**Day 4**
+
+During this day we learned about functions is javascript and and introduction
+to the CSS layout. We learned about parameters. Parameters are values that the
+function needs to execute the instructions. SOme other functions need arguments.
+Here is an example of a function.
+
+function function1() {
+X = 3 * s
+}
+
+  When you call this function so that the instructions inside of it will execute
+you use the folloeing code.
+
+function1 ();
+
+  Inside the parenthesis we can add parameters so this values would be used buy
+the instructions in the function.
+
+**Day 5**
+
+  Day 5 was spent covering CSS. We learned about how to use commands to position
+the boxes in the web page. We covered relative positioning. An example of the
+code used for relative positioning follows:
+
+p.example {
+    position: relative;
+    top: 10px;
+    left 100px;
+}
+
+  We also covered absolute positioning. In absolute positioning the box is
+taken out of normal flow and no longer affects the position of other elements
+on the page. Here is an example:
+
+h1 {
+  position: absolute;
+  top: 0px;
+  left: 500px;
+  width: 250px;
+}
+p {
+  width: 450px;
+}
