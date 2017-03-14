@@ -108,4 +108,23 @@ p {
 
 **Journal day 6**
 
-We learned about objects, functions and methods. 
+We learned about objects, functions and methods.
+
+Object group together s set of variables. Here is an example of how you add
+variables (properties) to an object:
+
+var = restaurant {
+name: "El Res",
+dishes: 3,
+tables: 20,
+dishType = ['tacos','hamburgers','hotdogs']
+}
+
+We also learned about built in objects. This built in objects contain
+functionalities used by commonly by scripts.
+Also we covered the methods. When a function is part of an object is called a
+method.
+
+Also DOM was covered. "Document Object Model"
+When the browser loads a web page, it creates a model of that page, that is
+the DOM.
