@@ -105,3 +105,7 @@ h1 {
 p {
   width: 450px;
 }
+
+**Journal day 6**
+
+We learned about objects, functions and methods. 
