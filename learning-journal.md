@@ -125,6 +125,7 @@ functionalities used by commonly by scripts.
 Also we covered the methods. When a function is part of an object is called a
 method.
 
+
 Also DOM was covered. "Document Object Model"
 When the browser loads a web page, it creates a model of that page, that is
-the DOM.
+the DOM. That summarizes day6. 
