@@ -128,4 +128,55 @@ method.
 
 Also DOM was covered. "Document Object Model"
 When the browser loads a web page, it creates a model of that page, that is
-the DOM. That summarizes day6. 
+the DOM. That summarizes day6.
+
+
+**Journal day 7**
+On day 7 we learned about box width, height, overflowBorder, margin, & padding.
+Border width, style, & color. Centering content. Changing inline/block.
+Visibility and additional border topics. All this is in CSS.
+
+Following is an example of how to change the with.
+
+.box {
+    width: 100%;
+}
+
+this changes all that are in the class box to 100% with.
+
+function myFunction() {
+    var x = document.createElement("TABLE");
+    x.setAttribute("id", "myTable");
+    document.body.appendChild(x);
+
+    var y = document.createElement("TR");
+    y.setAttribute("id", "myTr");
+    document.getElementById("myTable").appendChild(y);
+
+    var z = document.createElement("TD");
+    var t = document.createTextNode("cell");
+    z.appendChild(t);
+    document.getElementById("myTr").appendChild(z);
+}
+code source www.w3schools.com
+
+We also learned about creating tables and structure. Here is a code example of
+how to create a table.
+
+**Journal day 8**
+
+On this day we learned about forms, tables, lists and events.
+Forms is a way the user inputs values. There are different types of forms. The
+input types are text, password, submit, reset, radio, check box and button.
+Here is an example of what the code would look when asking for a radio input
+type:
+
+<form>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form>
+
+Another important subject we covered are the events. An event is something the
+user does or the browser does. Common events are:
+onchange, onclick, onmouseover, onmouseout,onkeydown and onload.
