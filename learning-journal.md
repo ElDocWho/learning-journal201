@@ -180,3 +180,50 @@ type:
 Another important subject we covered are the events. An event is something the
 user does or the browser does. Common events are:
 onchange, onclick, onmouseover, onmouseout,onkeydown and onload.
+
+**Journal day 9**
+
+Today we learned about key positioning. CSS treats each HTML element as if it
+is in its own box. The box can be in a block level or and inline box. Block
+line elements start on a new line. Inline elements flow in between surrounding
+text. CSS has the following ositioning schemes:
+
+  Normal flow
+  Relative positioning
+  Absolute positioning
+  Fixed positioning
+  Floating elements
+
+We also control screen sizes and resolutions.
+We also learned about CSS frameworks. With CSS frameworks we can create common
+tasks like the following:
+
+  Layout grids
+  styling forms
+  crating printer friendly versions of pages.
+
+**Journal day 10**
+
+In day 10 we covered error handling and debugging.
+Order of execution: The order in which statements are executed cannot complete
+until until another statement or function as completed.
+
+Functions in Javascript are said to have lexical scope, they are linked to the
+object they were defined within. There are object objects like the following:
+
+  Syntax error
+  Reference error
+  EvalError
+  URIError
+  TypeError
+  RangeError
+  Error
+  NaN
+
+There are two ways to threat errors:
+
+1. Debug the script to fix errors.
+2. Handle errors gracefully.
+
+  The debugger keyword creates a breakpoint in the code. The common errors
+we can find are missed extra characters and data type issues.
