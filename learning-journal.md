@@ -128,4 +128,102 @@ method.
 
 Also DOM was covered. "Document Object Model"
 When the browser loads a web page, it creates a model of that page, that is
-the DOM. That summarizes day6. 
+the DOM. That summarizes day6.
+
+
+**Journal day 7**
+On day 7 we learned about box width, height, overflowBorder, margin, & padding.
+Border width, style, & color. Centering content. Changing inline/block.
+Visibility and additional border topics. All this is in CSS.
+
+Following is an example of how to change the with.
+
+.box {
+    width: 100%;
+}
+
+this changes all that are in the class box to 100% with.
+
+function myFunction() {
+    var x = document.createElement("TABLE");
+    x.setAttribute("id", "myTable");
+    document.body.appendChild(x);
+
+    var y = document.createElement("TR");
+    y.setAttribute("id", "myTr");
+    document.getElementById("myTable").appendChild(y);
+
+    var z = document.createElement("TD");
+    var t = document.createTextNode("cell");
+    z.appendChild(t);
+    document.getElementById("myTr").appendChild(z);
+}
+code source www.w3schools.com
+
+We also learned about creating tables and structure. Here is a code example of
+how to create a table.
+
+**Journal day 8**
+
+On this day we learned about forms, tables, lists and events.
+Forms is a way the user inputs values. There are different types of forms. The
+input types are text, password, submit, reset, radio, check box and button.
+Here is an example of what the code would look when asking for a radio input
+type:
+
+<form>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form>
+
+Another important subject we covered are the events. An event is something the
+user does or the browser does. Common events are:
+onchange, onclick, onmouseover, onmouseout,onkeydown and onload.
+
+**Journal day 9**
+
+Today we learned about key positioning. CSS treats each HTML element as if it
+is in its own box. The box can be in a block level or and inline box. Block
+line elements start on a new line. Inline elements flow in between surrounding
+text. CSS has the following ositioning schemes:
+
+  Normal flow
+  Relative positioning
+  Absolute positioning
+  Fixed positioning
+  Floating elements
+
+We also control screen sizes and resolutions.
+We also learned about CSS frameworks. With CSS frameworks we can create common
+tasks like the following:
+
+  Layout grids
+  styling forms
+  crating printer friendly versions of pages.
+
+**Journal day 10**
+
+In day 10 we covered error handling and debugging.
+Order of execution: The order in which statements are executed cannot complete
+until until another statement or function as completed.
+
+Functions in Javascript are said to have lexical scope, they are linked to the
+object they were defined within. There are object objects like the following:
+
+  Syntax error
+  Reference error
+  EvalError
+  URIError
+  TypeError
+  RangeError
+  Error
+  NaN
+
+There are two ways to threat errors:
+
+1. Debug the script to fix errors.
+2. Handle errors gracefully.
+
+  The debugger keyword creates a breakpoint in the code. The common errors
+we can find are missed extra characters and data type issues.
