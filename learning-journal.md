@@ -227,3 +227,29 @@ There are two ways to threat errors:
 
   The debugger keyword creates a breakpoint in the code. The common errors
 we can find are missed extra characters and data type issues.
+
+**Learning journal day 11**
+
+Today we learned how to add video to our pages. We also commented that flash
+is not used that much. Apple stopped using it. The best way to add video
+into our web pages is by using the <video> tag. Here is a code example of how
+to do this:
+
+<video src = "video/jumping.mp4" poster = "images/jumping.jpg" width = "400"
+height = "300" loop>
+<p>Video of someone jumping</p>
+</video>
+
+In the css part we learned how to align the images, how and how to center them,
+ here is an example of how to center an image in css:
+
+  img.allign-center {
+    display: block;
+    margin: 0px auto:
+  }
+  img.medium {
+    width: 250px;
+    height 250px;
+  }
+We also covered about back-ground images. This way you can place an image
+behind any html element.
