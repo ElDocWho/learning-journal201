@@ -239,7 +239,7 @@ to do this:
 height = "300" loop>
 <p>Video of someone jumping</p>
 </video>
-
+d 
 In the css part we learned how to align the images, how and how to center them,
  here is an example of how to center an image in css:
 
