@@ -271,9 +271,17 @@ HTML document.
 
  **Journal day 13--
 
-  Today we learned about storing data in the browser. Where we stored is called
-  local storage.we do it with the following js.
+  Today we learned about storing data in the browser. Where we stored it is
+called local storage.we do it with the following js.
 
   localStorage['ingredients'] = JSON.stringify(ingredientsArray);
 
-  
+  What this does is it stores an Array called ingredients in the local storage
+by turning the data of this array into a string.
+
+  Then when we want to retrieve the data from the local storage we use the
+following js:
+
+var existingData = JSON.parse(localStorage['ingredients']);
+
+  This makes the string we had stored into a number or set of numbers.
