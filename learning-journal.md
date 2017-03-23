@@ -239,7 +239,7 @@ to do this:
 height = "300" loop>
 <p>Video of someone jumping</p>
 </video>
-d 
+d
 In the css part we learned how to align the images, how and how to center them,
  here is an example of how to center an image in css:
 
@@ -253,3 +253,27 @@ In the css part we learned how to align the images, how and how to center them,
   }
 We also covered about back-ground images. This way you can place an image
 behind any html element.
+
+**Journal Day 12**
+
+  During day 12 we learned how to put the data we have into a chart. We learned
+that these charts can be styled in many different ways. To create a canvas we
+need to put information in the HTML and the js. We use a tag called <canvas> in
+the HTML side, here is an example of this tag.
+
+<canvas id="canvas" width="500" height="300"></canvas>
+
+  We also learned where to find libraries to use with canvas, if we want to
+use a library, we have to do the following tad, and put it in the head of our
+HTML document.
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js" charset="utf-8"></script>
+
+ **Journal day 13--
+
+  Today we learned about storing data in the browser. Where we stored is called
+  local storage.we do it with the following js.
+
+  localStorage['ingredients'] = JSON.stringify(ingredientsArray);
+
+  
