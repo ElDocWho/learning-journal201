@@ -285,3 +285,4 @@ following js:
 var existingData = JSON.parse(localStorage['ingredients']);
 
   This makes the string we had stored into a number or set of numbers.
+  
