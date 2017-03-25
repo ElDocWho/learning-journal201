@@ -269,7 +269,7 @@ HTML document.
 
  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js" charset="utf-8"></script>
 
- **Journal day 13--
+**Journal day 13**
 
   Today we learned about storing data in the browser. Where we stored it is
 called local storage.we do it with the following js.
@@ -285,4 +285,43 @@ following js:
 var existingData = JSON.parse(localStorage['ingredients']);
 
   This makes the string we had stored into a number or set of numbers.
-  
+
+**Journal day 14 **
+
+  Today we learned about CSS transforms, transitions and animations. For the
+transform property we 2 different settings: a 2-dimensional and a 3-dimensional.
+Transform is a way that we can alter elements, here is an example of code that
+we would use in css to use transform:
+
+.box-1 {
+  transform: rotate(20deg);
+}
+.box-2 {
+  transform: rotate(-55deg);
+}
+
+  With transitions and animations we can alter the appearance and behavior of
+elements. Here is an example of this. During this example the box would change
+the color it has in one second. It does it in one second over a linear fashion.
+
+.box {
+  background: #2db34a;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.box:hover {
+  background: #ff7b29;
+}
+
+  Not all properties can be transitioned.
+
+**Journal day 15**
+
+  Today we had an introduction to jQuery. jQuery is basically a javascript
+library that simplifies event handling, document traversing, etc. Here is the
+basic syntax:
+
+Basic syntax is: $(selector).action()
+
+  A $ sign is to define or access jQuery.
