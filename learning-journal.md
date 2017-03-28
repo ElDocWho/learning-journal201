@@ -325,3 +325,13 @@ basic syntax:
 Basic syntax is: $(selector).action()
 
   A $ sign is to define or access jQuery.
+
+**Journal 16**
+
+  During this day basically we sharpened our skills to work as a group i one
+repository. I learned how to use Trello.
+
+  With Trello I learned how to assign tasks per member of the group. Also how
+keep track of the group's activities.
+
+  Also learned css new tricks. 
