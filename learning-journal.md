@@ -334,4 +334,8 @@ repository. I learned how to use Trello.
   With Trello I learned how to assign tasks per member of the group. Also how
 keep track of the group's activities.
 
-  Also learned css new tricks. 
+  Also learned css new tricks.
+
+**Journa Day 16**
+
+Learned more regarding local Storage and forms. 
