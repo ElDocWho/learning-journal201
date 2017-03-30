@@ -338,4 +338,13 @@ keep track of the group's activities.
 
 **Journa Day 16**
 
-Learned more regarding local Storage and forms. 
+Learned more regarding local Storage and forms.
+
+**Journal Day 17**
+
+Continued with css and learned more for the page that appears after submitting.
+
+**Journal day 18**
+
+  Learned more css towards the contributions page that I'm working on. for
+example to make a grid of images with click buttons.
