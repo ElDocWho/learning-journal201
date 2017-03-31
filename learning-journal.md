@@ -348,3 +348,8 @@ Continued with css and learned more for the page that appears after submitting.
 
   Learned more css towards the contributions page that I'm working on. for
 example to make a grid of images with click buttons.
+
+**Journal day 19**
+
+While finishing the final project for 201, we learned how to deal with margins
+in css.
