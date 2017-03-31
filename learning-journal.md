@@ -353,3 +353,4 @@ example to make a grid of images with click buttons.
 
 While finishing the final project for 201, we learned how to deal with margins
 in css.
+Also learned about placing boxes in the web page with different commands. 
